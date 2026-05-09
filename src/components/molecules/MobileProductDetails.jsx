@@ -38,16 +38,14 @@ const MobileProductDetails = () => {
                                     <picture>
                                         <source
                                             srcSet="
-      https://rukminim1.flixcart.com/fk-p-flap/1470/200/image/a11d836fbdf82809.jpeg?q=80 1x,
-      https://rukminim1.flixcart.com/fk-p-flap/2940/400/image/a11d836fbdf82809.jpeg?q=60 2x
-    "
+                                            https://rukminim1.flixcart.com/fk-p-flap/1470/200/image/a11d836fbdf82809.jpeg?q=80 1x,
+                                            https://rukminim1.flixcart.com/fk-p-flap/2940/400/image/a11d836fbdf82809.jpeg?q=60 2x"
                                             media="(min-width: 1192px)"
                                         />
                                         <source
                                             srcSet="
-      https://rukminim1.flixcart.com/fk-p-flap/910/130/image/a11d836fbdf82809.jpeg?q=80 1x,
-      https://rukminim1.flixcart.com/fk-p-flap/1820/260/image/a11d836fbdf82809.jpeg?q=60 2x
-    "
+                                            https://rukminim1.flixcart.com/fk-p-flap/910/130/image/a11d836fbdf82809.jpeg?q=80 1x,
+                                            https://rukminim1.flixcart.com/fk-p-flap/1820/260/image/a11d836fbdf82809.jpeg?q=60 2x"
                                             media="(min-width: 768px) and (max-width: 1191px)"
                                         />
                                         <img
@@ -73,16 +71,14 @@ const MobileProductDetails = () => {
                                                 <picture>
                                                     <source
                                                         srcSet="
-      https://rukminim1.flixcart.com/image/1600/2130/xif0q/mobile/c/v/v/-original-imahgfmypevfehpc.jpeg?q=80 1x,
-      https://rukminim1.flixcart.com/image/3200/4260/xif0q/mobile/c/v/v/-original-imahgfmypevfehpc.jpeg?q=60 2x
-    "
+                                                        https://rukminim1.flixcart.com/image/1600/2130/xif0q/mobile/c/v/v/-original-imahgfmypevfehpc.jpeg?q=80 1x,
+                                                        https://rukminim1.flixcart.com/image/3200/4260/xif0q/mobile/c/v/v/-original-imahgfmypevfehpc.jpeg?q=60 2x"
                                                         media="(min-width: 1192px)"
                                                     />
                                                     <source
                                                         srcSet="
-      https://rukminim1.flixcart.com/image/1000/1330/xif0q/mobile/c/v/v/-original-imahgfmypevfehpc.jpeg?q=80 1x,
-      https://rukminim1.flixcart.com/image/2000/2660/xif0q/mobile/c/v/v/-original-imahgfmypevfehpc.jpeg?q=60 2x
-    "
+                                                        https://rukminim1.flixcart.com/image/1000/1330/xif0q/mobile/c/v/v/-original-imahgfmypevfehpc.jpeg?q=80 1x,
+                                                        https://rukminim1.flixcart.com/image/2000/2660/xif0q/mobile/c/v/v/-original-imahgfmypevfehpc.jpeg?q=60 2x"
                                                         media="(min-width: 768px) and (max-width: 1191px)"
                                                     />
                                                     <img

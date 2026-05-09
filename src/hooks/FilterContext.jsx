@@ -18,9 +18,6 @@ export const FilterProvider = ({ children }) => {
         setPriceRange({ min, max })
     }
    
-
-    console.log(selectedBrand)
-
     const filteredProduct = useMemo(() => {
         
         return productData.filter((p) => {

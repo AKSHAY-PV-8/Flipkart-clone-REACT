@@ -4,8 +4,7 @@ const HomeNavbar = ({ style, icon, icon1, icon2, icon3, label2, label3, homePage
       <div className="bg-white flex justify-center items-center flex-col w-full ">
         <header className="flex items-center w-full sticky top-0 justify-between z-10 px-4 py-2 lg:py-3 lg:px-7 md:p-2 h-[52px]">
 
-          <div className="flex items-center flex-grow">
-
+          <div className="flex items-center flex-grow sm:max-w-[480px] md:max-w-[996px] lg:max-w-[1600px]">
             <a href="#" className="block mr-3 no-underline z-30 tracking-normal w-[42px] relative">
               {icon ? (
                 <div className="relative -top-1">
@@ -25,7 +24,7 @@ const HomeNavbar = ({ style, icon, icon1, icon2, icon3, label2, label3, homePage
               )}
             </a>
 
-            <div className="mr-0 pt-1 max-w-[120px] sm:mr-9">
+            <div className="mr-0 pt-1 max-w-[120px] sm:mr-9 ">
               {homePage ? (
                 <a href="#" className="no-underline">
                   <picture title="Flipkart">
@@ -36,7 +35,7 @@ const HomeNavbar = ({ style, icon, icon1, icon2, icon3, label2, label3, homePage
                       height="40"
                       alt="Flipkart"
                       src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/fkheaderlogo_exploreplus-44005d.svg"
-                      className="aspect-[auto, 4/1] relative -top-1.5"
+                      className="aspect-[auto, 160/40] relative -top-1.5 sm:max-w-[480px] md:max-w-[996px] lg:max-w-[1600px] "
                     />
                   </picture>
                 </a>
@@ -51,8 +50,6 @@ const HomeNavbar = ({ style, icon, icon1, icon2, icon3, label2, label3, homePage
                 </div>
               )}
             </div>
-
-
           </div>
 
           <div className="flex items-center font-inter relative left-1 -top-[2.8px]">
@@ -60,7 +57,7 @@ const HomeNavbar = ({ style, icon, icon1, icon2, icon3, label2, label3, homePage
               <div className="relative flex items-center p-2">
                 <a href="#" className="flex items-center text-[16px] leading-[24px] no-underline text-center relative ">
                   {icon1 ? (
-                    <img src={icon1} width="24" height="24" className="w-6 h-6"/>
+                    <img src={icon1} width="24" height="24" className="w-6 h-6 relative left-[6px] top-[1px]"/>
                   ) : (
                     <svg height="30" viewBox="0 0 32 32" width="30" fill="none" xmlns="http://www.w3.org/2000/svg" className="relative left-4">
                       <path d="M15.0012 21.9999C18.8671 21.9999 22.0011 18.8659 22.0011 14.9999C22.0011 11.134 18.8671 8 15.0012 8C11.1352 8 8.00122 11.134 8.00122 14.9999C8.00122 18.8659 11.1352 21.9999 15.0012 21.9999Z" stroke="#111112" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"></path>
@@ -80,15 +77,15 @@ const HomeNavbar = ({ style, icon, icon1, icon2, icon3, label2, label3, homePage
                   </a>
                 </div>
               </div>
-              <a href="#" className="no-underline flex items-center text-center md:hidden">
+              <a href="#" className="no-underline flex items-center text-center relative left-[9px] md:hidden">
                 {icon2 ? <img src={icon2} width="24" height="24" /> : ""}
-                {label2 && <div className="ml-1">{label2}</div>}
+                {label2 && <div className="ml-1 text-[16px] tracking-[1px]">{label2}</div>}
               </a>
             </div>
 
             <div className="flex items-center px-0 cursor-pointer md:px-5">
               <div className="relative flex items-center p-2">
-                <a href="#" className="flex items-center text-[16px] leading-[24px] no-underline text-center">
+                <a href="#" className="flex items-center text-[16px] relative left-3 leading-[24px] no-underline text-center">
                   {icon ? <img src={icon3} className="mr-2 w-6 h-6" width="24" height="24" /> : ""}
                 </a>
                 <a href="#" className="font-extralight text-[16px] hidden md:block">Cart</a>

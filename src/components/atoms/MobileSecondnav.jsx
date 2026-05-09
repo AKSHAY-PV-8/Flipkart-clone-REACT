@@ -8,7 +8,7 @@ const MobileSecondnav = () => {
                 <div className="mb-1 flex xl:hidden pl-4 font-medium [font-family: Inter, -apple-system, Helvetica, Arial, sans-serif] relative -top-[3px] text-[13px] leading-[18px] bg-white font-extrabold">
                     <div className="flex flex-row items-center relative p-1 ">
                         <svg
-                            className="relative -left-[3px]"
+                            className="relative -left-[3px] -top-[1px]"
                             width="16"
                             height="16"
                             viewBox="0 0 16 16"
@@ -27,11 +27,11 @@ const MobileSecondnav = () => {
                                 fill="#1F1F1F"
                             />
                         </svg>
-                        <div className="inline overflow-hidden">Location not set</div>
+                        <div className="inline overflow-hidden  text-[12px] tracking-[.5px] font-bold]">Location not set</div>
                     </div>
 
                     <div className="p-1 flex items-center">
-                        <div className="text-[#1254E7] inline whitespace-nowrap max-w-full overflow-hidden text-ellipsis">
+                        <div className="text-[#1254E7] inline whitespace-nowrap max-w-full overflow-hidden text-ellipsis font-medium text-[12px] tracking-[.5px]">
                             Select  delivery location
                         </div>
                         <svg
@@ -41,6 +41,7 @@ const MobileSecondnav = () => {
                             fill="none"
                             style={{ backgroundColor: "rgba(0,0,0,0)" }}
                             xmlns="http://www.w3.org/2000/svg"
+                            className="mb-[1px]"
                         >
                             <path
                                 d="M6.627 3.749L11.627 8.749L6.627 13.749"
@@ -63,7 +64,8 @@ const MobileSecondnav = () => {
 
                                             <div className="flex flex-col items-stretch min-h-[30px] relative flex-1 overflow-hidden pl-2">
                                                 <a href="" className="flex flex-col items-stretch relative flex-1 justify-center">
-                                                    <div className="inline whitespace-pre-wrap break-words text-[#000000e0] text-[14px] leading-[20px] -tracking-[0.1px]">Search for Products</div>
+                                                    <div className="inline whitespace-pre-wrap break-words
+                                                    [font-family: inter_regular, fallback-inter_regular, Arial, sans-serif] text-[#000000e0] text-[14px] leading-[20px] -tracking-[0.1px]">Search for Products</div>
                                                 </a>
                                             </div>
                                         </div>

@@ -61,7 +61,6 @@ const MobileProductCards = () => {
                                                 {product.rating}
                                             </div>
                                         </div>
-
                                     </div>
                                 </div>
 
@@ -91,7 +90,6 @@ const MobileProductCards = () => {
 
                                         <div className="mr-1 items-stretch flex">
                                             <div className="text-[17px] leading-[24px] -tracking-[0.1px] text-black">₹{product.price}</div>
-
                                         </div>
                                     </div>
                                 </div>

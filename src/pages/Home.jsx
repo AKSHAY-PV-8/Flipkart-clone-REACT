@@ -11,11 +11,15 @@ import HomeNavbar from "../components/organisums/HomeNavbar"
 import icon1 from "../assets/img/iconmb1.svg"
 import icon2 from "../assets/img/icon2mb.svg"
 import MobileSecondnav from "../components/atoms/MobileSecondnav"
+import MobileIconsList from "../components/molecules/MobileIconsList"
 
 
 const Home = () => {
+
   const icon = "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNSIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI1IDI0IiBmaWxsPSJub25lIj4KPGcgY2xpcC1wYXRoPSJ1cmwoI2NsaXAwXzExNzg3Xzg3NzY3KSI+CjxwYXRoIGQ9Ik00LjUgMTJIMjAuNSIgc3Ryb2tlPSJibGFjayIgc3Ryb2tlLXdpZHRoPSIxLjQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNNC41IDYuMjVIMjAuNSIgc3Ryb2tlPSJibGFjayIgc3Ryb2tlLXdpZHRoPSIxLjQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNNC41IDE3Ljc1SDIwLjUiIHN0cm9rZT0iYmxhY2siIHN0cm9rZS13aWR0aD0iMS40IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPC9nPgo8ZGVmcz4KPGNsaXBQYXRoIGlkPSJjbGlwMF8xMTc4N184Nzc2NyI+CjxyZWN0IHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgZmlsbD0id2hpdGUiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAuNSkiLz4KPC9jbGlwUGF0aD4KPC9kZWZzPgo8L3N2Zz4K"
   const icon3 = "https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/header_cart-eed150.svg"
+
+
   return (
     <div className="bg-[#f8f8f8] w-full h-[100dvh] flex flex-col">
 
@@ -29,18 +33,20 @@ const Home = () => {
           <div className="max-w-full flex w-full flex-col
                           md:!max-w-[996px] md:!mt-2 
                           lg:!max-w-[1600px] lg:!mt-2">
-            <HomeIconsList style="hidden xl:block"/>
+
+            <HomeIconsList style="hidden xl:block"/> {/*large screen*/} 
             <BanerSlider />
-            <HomeIconsList style="block xl:hidden"/>
+            
             <ProudctBaner />
-            <OfferBanners />
-            <Banner/>
+            <MobileIconsList/>
+            {/* <OfferBanners />
+            <Banner/> */}
           </div>
         </div>
 
-        <BrandDiectory />
+        {/* <BrandDiectory />
         <FlipkartInfo />
-        <Footer />
+        <Footer /> */}
       </div>
 
     </div>
